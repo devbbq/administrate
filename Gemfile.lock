@@ -9,7 +9,6 @@ PATH
       momentjs-rails (~> 2.8)
       neat (~> 1.1)
       normalize-rails (~> 3.0)
-      rails (~> 4.2)
       sass-rails (~> 5.0)
       selectize-rails (~> 0.6)
 
@@ -305,7 +304,6 @@ DEPENDENCIES
   rack-timeout
   rails_stdout_logging
   redcarpet
-  rspec-rails (~> 3.4.2)
   shoulda-matchers (~> 2.8.0)
   timecop
   uglifier

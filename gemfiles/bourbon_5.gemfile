@@ -27,7 +27,6 @@ group :development, :test do
   gem "faker"
   gem "i18n-tasks"
   gem "pry-rails"
-  gem "rspec-rails", "~> 3.4.2"
 end
 
 group :test do
