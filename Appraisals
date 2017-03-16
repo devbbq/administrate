@@ -16,3 +16,8 @@ appraise "rails50" do
 
   gem "rails-controller-testing"
 end
+
+appraise 'rails51' do
+  gem 'rails', '5.1.0.rc1'
+  gem 'rails-controller-testing'
+end
