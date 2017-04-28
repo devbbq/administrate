@@ -19,7 +19,7 @@ describe Administrate::Field::Number do
   it { should_permit_param(:foo, for_attribute: :foo) }
 
   describe "#to_s" do
-    it "defaults to displaying no decimal points" do
+    it "defaults to displaying no decimal points for integers" do
       int = Administrate::Field::Number.new(:quantity, 3, :show)
       expect(int.to_s).to eq("3")
     end
