@@ -2,9 +2,9 @@ PATH
   remote: .
   specs:
     administrate (0.6.0)
-      actionpack (>= 4.2, < 5.1)
-      actionview (>= 4.2, < 5.1)
-      activerecord (>= 4.2, < 5.1)
+      actionpack (>= 4.2, <= 5.1)
+      actionview (>= 4.2, <= 5.1)
+      activerecord (>= 4.2, <= 5.1)
       autoprefixer-rails (~> 6.0)
       datetime_picker_rails (~> 0.0.7)
       jquery-rails (>= 4.0)
