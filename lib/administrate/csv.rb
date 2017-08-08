@@ -11,7 +11,7 @@ module Administrate
 
     def generate
       ::CSV.generate(headers: true) do |csv|
-        csv << headers
+        csv << headers.map(&:titleize)
 
         resources.find_each do |resource|
           show = Administrate::Page::Show.new(page.dashboard, resource)
